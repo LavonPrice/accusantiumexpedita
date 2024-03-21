@@ -1,0 +1,37 @@
+{
+  "name": "accusantiumexpedita",
+  "version": "1.0.0",
+  "description": "Injects Solidity source code with DebugLine events to allow per-line error reporting.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LavonPrice/accusantiumexpedita.git"
+  },
+  "author": "AvaYost",
+  "bin": {
+    "eth-debug-lines": "bin.js"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ethereum",
+    "aut",
+    "harum",
+    "interface"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "*",
+    "spawn-please": "^0.2.0"
+  },
+  "dependencies": {
+    "get-stdin-promise": "^0.1.1",
+    "solidity-parser": "git://github.com/raineorshine/solidity-parser.git#326da052567245c9d9a0ba941bd9923aa89cda84",
+    "yargs": "^6.4.0"
+  }
+}
